@@ -149,20 +149,34 @@ a {
 
 @media (max-width: 769px) {
 
+
+  .sub-title {
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 1rem;
+  }
+
+  .title {
+    font-weight: bolder;
+    font-size: 3rem;
+  }
+
+  .continer-experiences-heading{
+    margin-top: 15%;
+  }
   .container-experiences {
       width: 80%;
-      margin: 5% auto;
+      margin: 0 auto;
       text-align: left;
+  }
+
+  .continer-experience{
+    margin: 0 0 25%;
   }
 
   .logo-super{
     display: flex;
     justify-content: center;
-  }
-
-  .dummy-seperator{
-    height: 30px;
-    width: 100%
   }
 
 
@@ -172,7 +186,7 @@ a {
   }
 
 .dummy-seperator{
-  height: 50px;
+  height: 1px;
   width: 100%
 }
 
@@ -184,5 +198,7 @@ a {
   padding: 5% 5% 10%;
 
 }
+
+
 
 }
